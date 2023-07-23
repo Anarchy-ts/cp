@@ -131,7 +131,7 @@ int main()
         for (int j = 0; j < n - k-1 ; j++) {
             if (points[j] == points[j + 1]) {
                 if (penal[j] > penal[j + 1]) {
-                    std::swap(penal[j], penal[j + 1]);
+                    swap(penal[j], penal[j + 1]);
                 }
             }
         }
