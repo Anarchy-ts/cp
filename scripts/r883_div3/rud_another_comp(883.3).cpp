@@ -63,11 +63,11 @@ int main()
 {
     int test;
     long int h,n,m;
-    //cout<<"Enter number of test cases : ";
+    cout<<"Enter number of test cases : ";
     cin>>test;
     for(int i=1; i<=test; i++)
     {
-        //cout<<"Enter number of participants, problems and duration : ";
+        cout<<"Enter number of participants, problems and duration : ";
         cin>>n>>m>>h;
         long int time[m], penal[n]={0}, points[n]={0}, points2[n]={0}, penal2[n]={0};
         for (int j=0; j<n; j++)
