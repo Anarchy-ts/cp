@@ -25,10 +25,10 @@ int main()
     // cout<<last<<endl;
     // cout<<k<<endl;
     // k = last-k;
-    // cout<<"nums : ";
-    // for(int i=0;i<=last;i++)
-    //     cout<<nums[i]<<",";
-    // cout<<endl;
+    cout<<"nums : ";
+    for(int i=0;i<=last;i++)
+        cout<<nums[i]<<",";
+    cout<<endl;
 
     // cout<<"k : "<<k+1<<endl;
     return k+1;
