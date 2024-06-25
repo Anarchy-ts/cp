@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int nums[]={1,1,2};
+    int nums[]={1,2,3,3,4,4,5};
     int k=0, last=sizeof(nums) / sizeof(nums[0])-1,left=1,right=1;   
     while(left<=right && left<=last && right<=last)
     {
